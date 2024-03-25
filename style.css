@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5efe6; /* Warna background hangat */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+form {
+  margin: 0 auto; /* Menengahkan form di tengah halaman */
+  margin-bottom: 20px;
+  display: grid;
+  gap: 10px;
+  max-width: 50%; /* Menetapkan lebar maksimum form menjadi setengah lebar halaman */
+}
+
+form label {
+  display: flex; /* Mengubah label menjadi flex container */
+  align-items: center; /* Mengatur konten vertikal ke tengah */
+}
+
+form input[type="text"],
+form input[type="checkbox"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form button[type="submit"] {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffd6ba; /* Warna latar belakang hangat */
+}
+
+.delete-button,
+.complete-button {
+  padding: 4px 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff4d4d; /* Warna tombol hapus hangat */
+  color: #fff;
+}
+
+.complete-button {
+  background-color: #ffa94d; /* Warna tombol selesai hangat */
+  color: #fff;
+}
+
+.read-books-list {
+  margin-top: 20px;
+  background-color: #fffaf0; /* Warna latar belakang daftar buku hangat */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

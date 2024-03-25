@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rak Buku Saya</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rak Buku Saya</h1>
+
+    <form id="book-form">
+      <label for="title">Judul:</label>
+      <input type="text" id="title" required />
+      <br />
+      <label for="author">Penulis:</label>
+      <input type="text" id="author" required />
+      <br />
+      <label for="year">Tahun:</label>
+      <input type="text" id="year" required />
+      <br />
+      <label for="isComplete">Sudah Selesai:</label>
+      <input type="checkbox" id="isComplete" />
+      <br />
+      <button type="submit">Tambah Buku</button>
+    </form>
+
+    <h2>Buku Belum Dibaca</h2>
+    <ul id="unread-books-list"></ul>
+
+    <h2>Buku Telah Dibaca</h2>
+    <ul id="read-books-list"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
